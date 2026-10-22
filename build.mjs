@@ -98,7 +98,7 @@ function layout({ file, title, desc, current, hero, body, image }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
 <script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org', '@type': 'Hotel', name: SITE.name,
     address: { '@type': 'PostalAddress', streetAddress: SITE.addr1, addressLocality: 'Kennebunk', addressRegion: 'ME', postalCode: '04043', addressCountry: 'US' },
@@ -177,7 +177,7 @@ ${body}
     <span><a href="${SITE.terms}">Terms &amp; Conditions</a> · <a href="${SITE.privacy}">Privacy &amp; Cookie Statement</a></span>
   </div></div>
 </footer>
-<script src="assets/js/main.js" defer></script>
+<script src="main.js" defer></script>
 </body>
 </html>
 `;
